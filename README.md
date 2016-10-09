@@ -2,13 +2,10 @@
 
 #迄今为止的DEX加壳方案
 
-    classes.dex整包加密：
-        整包加密即直接加密整个DEX文件保存在其他目录，运行时脱壳机解密还原出classes.dex。
+    classes.dex整包加密：整包加密即直接加密整个DEX文件保存在其他目录，运行时脱壳机解密还原出classes.dex。
         
-    classes.dex字节码变形：
-        字节码变形会对classes.dex文件进行预处理，如抽出Method等信息进行加密，并存放在不同的文件中，运行时脱壳机将Method解密并恢复到classes.dex中。
-    VMProtect:
-        将关键代码编译为专用虚拟机代码，于专用虚拟机中执行，这种方式正在研发中，也可能是未来的发展方向。
+    classes.dex字节码变形：字节码变形会对classes.dex文件进行预处理，如抽出Method等信息进行加密，并存放在不同的文件中，运行时脱壳机将Method解密并恢复到classes.dex中。
+    VMProtect: 将关键代码编译为专用虚拟机代码，于专用虚拟机中执行，这种方式正在研发中，也可能是未来的发展方向。
         
 #脱壳方法
 
